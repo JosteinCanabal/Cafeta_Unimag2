@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+
+    background-image: url(../../vistas/img/Cafeteria.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.logo{
+    position: absolute;
+    height: 90px;
+    width: 120px;
+    z-index: 20;
+ }
+
+li{
+    display: inline;
+    margin-left: 15px;
+    color: #004a87;
+    font-weight: bold;
+}
+
+a{
+    color:#f3f3f3;
+}
+
+nav{
+    background-color: #004a87;
+    padding-left: 80px;
+    padding-top: 40px;
+    height: 90px;
+    z-index: 2;
+    
+}
+
+.icon{
+    color: white;
+    margin-right: 10px;
+}
+    
+.menu{
+        display: inline;
+        padding-left: 100px;
+        padding-bottom: 30px;
+}
+
+.cajaInicio{
+    
+    width: 100%;
+    height: calc(100vh - 150%);
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    opacity: .8;
+}
+
+.inicio{
+    
+    width:100%;
+    text-align: center;
+    color: #f3f3f3;
+}
+
+.inicio p{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+form{
+    border: 3px solid black;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    background:#f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 3px 30px;
+}
+
+.title-form h2{
+    text-align: start;
+}
+
+.info{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info input {
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.iniciar  {
+    padding: 20px 150px;
+    background: #004a87;
+    border-radius: 50px;
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
